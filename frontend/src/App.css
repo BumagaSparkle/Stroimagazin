@@ -1,0 +1,45 @@
+.hero {
+  padding: 2rem;
+  background-color: #003166; 
+  color: white;
+  text-align: center;
+}
+
+.events-overview, .forum-overview, .auth-buttons {
+  padding: 2rem;
+  background-color: #fff; 
+  text-align: center;
+}
+
+.events-overview ul {
+  list-style: none;
+  padding: 0;
+}
+
+.events-overview ul li {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #eee; 
+  padding-bottom: 1rem; 
+}
+
+.auth-buttons button {
+  margin: 0.5rem;
+  padding: 1rem 2rem;
+  background-color: #003166; 
+  border: none;
+  cursor: pointer;
+}
+
+.auth-buttons button:hover {
+  background-color: #0056b3; 
+}
+
+body {
+  background-color: #b3cde0; 
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
